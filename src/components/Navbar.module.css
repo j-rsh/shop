@@ -1,0 +1,54 @@
+.container
+{
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 21px 0px;
+    z-index: 1;
+}
+
+.itemContainer
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 180px;
+}
+.productLink
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1a73e8;
+    font-size: 20px;
+    border-bottom: 3px solid #1a73e8;
+    padding: 7px 4px;
+}
+.icon
+{
+    position: relative;
+}
+.icon img{
+    width: 45px;
+}
+.icon span
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #0b499b;
+    border-radius: 50%;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+}
+
+@media (max-width:1200px)
+{.itemContainer
+
+    {
+        padding: 5px 20px;
+    }
+
+}
