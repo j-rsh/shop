@@ -39,6 +39,7 @@
     background-color: #1a73e8;
     position: absolute;
     margin-top: 16px;
+    cursor: pointer;
 }
 @media (max-width:720px)
 {

@@ -9,12 +9,12 @@ import ShopCart from './components/ShopCart';
 
 const App = () => {
   return (
-    <div style={{backgroundColor:"#f7f4f496"}}>  
+    <div >  
       <ProductContextProvider>
         <CartContextProvider>
           <Navbar/>
       <Routes>
-        <Route path="/products" element={<Store/>}/>
+        <Route path="/" element={<Store/>}/>
         <Route path="/products/:id" element={<ProductDetails/>}/>
         <Route path="/cart" element={<ShopCart/>}/>
       </Routes>

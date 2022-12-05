@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div className={style.container}>
             <div className={style.itemContainer}>
-                <Link className={style.productLink} to="/products" >Products</Link>
+                <Link className={style.productLink} to="/" >Products</Link>
                 <div className={style.icon}>
                     <Link to="/cart"> <img src={ShopIcon} alt="shop"/></Link>
                     <span>{state.itemsCounter}</span>
